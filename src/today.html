@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container widget">
+    	<div class="widget-header">
+    		<span id="widget-day">Сегодня</span>
+    		<button class="close-btn">❌</button>
+    	</div>
+    	<ul id="widget-lessons"></ul>
+    	<div class="nav">
+    		<button id="prev-widget">⬅️</button>
+    		<span id="widget-day-nav">Сегодня</span>
+      		<button id="next-widget">➡️</button>
+    	</div>
+	</div>
+	<script>window.api = window.electronAPI; /* preload */</script>
+	<script src="../renderer.js"></script>
+</body>
+</html>
