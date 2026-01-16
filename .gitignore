@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.pnp/
+*.log
+
+# Production builds
+dist/
+out/
+build/
+*.app
+*.exe
+*.dmg
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+.DS_Storenode_modules/
+dist/
+*.app
+.vscode/
+.DS_Store
